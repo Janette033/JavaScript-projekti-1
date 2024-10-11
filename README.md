@@ -24,24 +24,16 @@ I did everything myself.
 The application's name is "To Do List." The user can add tasks through the input field, and the tasks are added to the page as a list. The user can manage the tasks by deleting them or marking them as completed. Additionally, tasks can be filtered based on completed and ongoing statuses.
 
 ## Screenshots
-Add here atleast one screenshot of the working application 
-`![Writing](https://unsplash.com/photos/VBPzRgd7gfc)`
 
-Picture by [Kelly Sikkema](https://unsplash.com/@kellysikkema)
 
 ## Technologies
-Describe which technologies were used and the role of each in your project. 
-I used the following technologies `html`, `css`, ...
+html, css ja javaScript
 
 ## Setup
-Write brief instructions on how to run and use your app. For example:
-- download all the files and open index.html in your browser
-- download or clone the repository
-- run `npm install`
-- ...
+You can use the application via the link located under the demo link section.
 
 ## Status
-[name of project] is still in progress. `Version 2` will be out soon.
+Ready.
 
 ## Credits
 List of contriubutors and sources you used during the project. Also mention if you used ChatGPT or other AI tools when coding and explain how did you benefit from them.
