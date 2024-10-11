@@ -2,7 +2,7 @@
 The project author is Janette, and the project name is "ToDoList".
 
 ## Demo link:
-Access my site at [google.com](https://google.com)
+https://beamish-cupcake-7e8e85.netlify.app/
 
 ## How was the workload divided
 I did everything myself. 
