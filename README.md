@@ -37,8 +37,20 @@ Ready.
 
 ## Credits
 List of contriubutors and sources you used during the project. Also mention if you used ChatGPT or other AI tools when coding and explain how did you benefit from them.
-- [John Doe](johndoe.com)
-- [Beginners guide to BEM](link-goes-here.com)
+
+These videos helped me understand the basic concepts needed for the project: 
+Web Dev Simplified. 2019. Learn HTML Forms In 25 Minutes. YouTube. https://www.youtube.com/watch?v=fNcJuPIZ2WE&t=0s 
+
+ProMakerDev. 2020. Local Storage Explained In 10 min | Javascript. YouTube.
+https://www.youtube.com/watch?v=fYTTUBa-lPc 
+
+These videos helped me get started with designing the to-do list:
+CodePhilip. 2020. To Do List | Javascript Beginner Project Tutorial. YouTube. 
+https://www.youtube.com/watch?v=-pRg_daFjfk 
+
+Devression. 2022. Build a Todo List App in HTML CSS JavaScript | EASY BEGINNER TUTORIAL. YouTube. https://www.youtube.com/watch?v=q0-N_w0Op84  
+
+ChatGPT has been used in this project. With its help, I have searched for errors in the code and asked for improvement suggestions. Additionally, ChatGPT has assisted in understanding how localStorage works.
 
 ## License
 Choose a license for your project by following this [guide](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository).
