@@ -1,8 +1,9 @@
+// Laitetaan syöttökenttä, lisäysnappi ja tehtävälista omiin muuttujiin
 const addButton = document.getElementById('addToDo'); 
 const taskInput = document.getElementById('inputField');
 const taskList = document.getElementById('todo-list');
 
-
+// Tehtävien lisäys funktio
 function addTask(event) {
     
     event.preventDefault() // Estetään uudelleen lähetyksen, jotta käyttäjä ehtii reagoimaan virheisiin
@@ -27,10 +28,11 @@ function addTask(event) {
     }
 }
 
+// Tehtävien lisäys funktiolle kuuntelija
 addButton.addEventListener('click', addTask);
 
 
-// Luodaan uusi elementti eli tehtävä
+// Luodaan uusi tehtävä funktio
 function createTaskElement(task, completed = false) {
     const listItem = document.createElement('li'); // Luodaan lista elementti
     taskList.appendChild(listItem); 
@@ -81,7 +83,7 @@ function createTaskElement(task, completed = false) {
 }
 
 
-
+// tehtävien filtteröinnille oma funktio
 function FiltteroidaanTehtavat() {
     const valitse = document.querySelector('.filter-tasks').value; // Hae valittu suodatusarvo
     const checkboxit = taskList.querySelectorAll('.task-checkbox'); // Hae kaikki checkbox-elementit
@@ -121,9 +123,9 @@ function FiltteroidaanTehtavat() {
 
 
 const filterSelect = document.querySelector('.filter-tasks'); // Hae select-elementti
-filterSelect.addEventListener('change', FiltteroidaanTehtavat); // Lisää tapahtumakuuntelija
+filterSelect.addEventListener('change', FiltteroidaanTehtavat); // Lisää tapahtumakuuntelija filetteröinti funktiolle
 
-
+// Oma funktio localStorageen tallentamista varten
 function tallennaLocalstorageen() {
     let tehtavat = []; // Tyhjä taulukko 
     const listanElementit = taskList.querySelectorAll('li'); // Hae kaikki listan elementit
@@ -139,6 +141,7 @@ function tallennaLocalstorageen() {
     localStorage.setItem('tasks', JSON.stringify(tehtavat)); 
 }
 
+// Oma funktio LocalStoragesta tuomiseen varten
 function tuodaanLocalStoragesta() { 
     const tallennetutTehtavat = JSON.parse(localStorage.getItem('tasks')); // JSON.parse muuttaa käyttökelpoiseksi javascriptissä
     
@@ -149,7 +152,7 @@ function tuodaanLocalStoragesta() {
     }
 }
 
-tuodaanLocalStoragesta()
+tuodaanLocalStoragesta() // Kutsutaan funktiota
 
 
 
